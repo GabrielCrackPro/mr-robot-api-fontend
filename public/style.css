@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+*::selection {
+  background: #ddd;
+  color: #df2d2f;
+  font-weight: bold;
+}
+*::placeholder {
+  color: #df2d2f;
+  font-weight: bold;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #212529;
+}
+.form-container form {
+  width: 100%;
+  margin: 0 auto;
+}
+.form-container form input {
+  width: 68%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.form-container form button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #df2d2f;
+  color: #fff;
+  cursor: pointer;
+}
+.form-container form button:hover {
+  background-color: #fff;
+  color: #df2d2f;
+}
+.form-container form button:active {
+  background-color: #df2d2f;
+  transform: scale(1.2);
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.results-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  color: #df2d2f;
+  border: 2px solid #212529;
+  background: rgb(230, 230, 230);
+}
+.api-info {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.api-info p {
+  color: #df2d2f;
+}
+.api-info a {
+  color: #df2d2f;
+  font-weight: bold;
+}
+.api-info a:hover {
+  color: #212529;
+}
+.endpoints-list {
+  width: 100%;
+  margin-bottom: 5px;
+}
+span {
+  font-weight: bold;
+}
+span a {
+  color: #df2d2f;
+}
+span a:hover {
+  color: #212529;
+}
+pre {
+  font-family: "Courier New", Courier, monospace;
+}
+code {
+  color: #df2d2f;
+}
